@@ -1,0 +1,48 @@
+
+#sorted_options, #sorted_choices
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+
+#main-list
+{
+  width: 300px;
+  height: 345px;
+  margin-bottom: 5px;
+}
+
+.no-margin
+{
+  margin-bottom: 0.1em;
+}
+
+#top_bar
+{
+  margin-top: 1em;
+}
+
+li a:hover
+{
+  background-color: white !important;
+  cursor: move !important; /* pointer */
+}
+
+/*
+#sortable li
+{
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+}
+
+#sortable li span
+{
+  position: absolute;
+  margin-left: -1.3em;
+}
+*/

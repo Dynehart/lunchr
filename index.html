@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Foundation -->
+  <link rel="stylesheet" href="./css/foundation-flex.min.css">
+
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Eat with Friends</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+
+<body>
+
+  <div class="row">
+    <div id='top_bar' class="small-12 columns" style="text-align:center;">
+      <p>Select and rank your prefered cafes</p>
+    </div>
+  </div>
+
+  <div class="row align-center">
+    <div id="main-list" class="small-8 medium-6 large-4 columns" style="text-align:center;">
+      <ul id="sorted_options">
+        <li class="ui-state-default" id><a id='cafe_1a' class="button expanded no-margin hollow disabled secondary">Cafe 9</a></li>
+        <li class="ui-state-default" id><a id='cafe_2a' class="button expanded no-margin hollow disabled secondary">Cafe 26</a></li>
+        <li class="ui-state-default" id='cafe_3'><a id='cafe_3a' class="button expanded no-margin hollow">Cafe 34</a></li>
+        <li class="ui-state-default" id><a id='cafe_4a' class="button expanded no-margin hollow disabled secondary">Cafe 43</a></li>
+        <li class="ui-state-default" id><a id='cafe_5a' class="button expanded no-margin hollow disabled secondary">Cafe 83</a></li>
+        <li class="ui-state-default" id='cafe_6'><a id='cafe_6a' class="button expanded no-margin hollow">Cafe 112</a></li>
+        <li class="ui-state-default" id><a id='cafe_7a' class="button expanded no-margin hollow disabled secondary">Commons</a></li>
+        <li class="ui-state-default" id><a id='cafe_8a' class="button expanded no-margin hollow disabled secondary">Studio H</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="expanded row align-center">
+    <div class="small-12 columns" style="text-align:center;">
+      <button id="submit" type="button" class="large button" onclick="submitVote()">submit</button>
+    </div>
+  </div>
+
+</body>
+
+
+<!-- jQuery -->
+<script src="./js/jquery-3.1.1.min.js"></script>
+<!-- jQuery UI -->
+<script src="./js/jquery-ui.min.js"></script>
+<!-- http://stackoverflow.com/questions/34027761/jquery-ui-sortable-hold-and-drag-for-mobile-->
+<script src="./js/jquery.ui.touch-punch.min.js"></script>
+<!-- jQuery UI Touch Punch -->
+<script src="./js/jquery.mobile-events.min.js"></script>
+<!-- jQuery Cookie -->
+<script src="./js/jquery.cookie.min.js"></script>
+
+<script src="./js/main.js"></script>
+
+</html>
